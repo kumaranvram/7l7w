@@ -1,0 +1,1 @@
+This repo is created for learning 7 Languages in 7 Weeks
