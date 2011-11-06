@@ -20,6 +20,7 @@ if FileTest.exist? file_to_search then
     end
   end
   puts "Pattern not found in the specified file" if !pattern_found
+  input_file.close
 else
   puts "File does not exist"
 end
