@@ -1,0 +1,9 @@
+1. 1 + 1 gives 2. But 1 + "one" gives and exception that the argument for + must be a number
+- So Io is strongly typed language
+
+2. Any number is true because true and <a number> always returns true.. So an object that is created corresponds to true
+true and false expresssion returns false and true and nil returns false
+
+3. By running the <Prototype_Name> proto, the slots the prototype supports can be found
+
+4. :=  will create the slot  where as = will replace the slot if present and throw exception if not, ::= Yet to be found out :)
