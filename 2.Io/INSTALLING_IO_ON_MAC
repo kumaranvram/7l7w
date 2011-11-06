@@ -1,0 +1,36 @@
+Installing Io on Mac OS X
+==========================
+
+1. Git clone the repository git clone https://github.com/stevedekorte/io.git
+2. Open terminal and navigate to the io folder (the cloned git repo)
+3. /usr/bin/ruby -e "$(curl -fsSL https://raw.github.com/gist/323731)" - Install home brew
+4. Run `brew install io`
+5. Run `sudo port install libevent`
+6. Run `./build.sh`
+
+For a richer set of libraries, run the following commands. (Optional libraries)
+
+sudo port install gmp
+sudo port install libffi
+sudo port install libpng
+sudo port install cairo
+sudo port install freetype
+sudo port install libpng
+sudo port install tiff
+sudo port install libsndfile
+sudo port install mysql5-devel
+sudo port install qdbm
+sudo port install portaudio
+sudo port install pcre
+sudo port install libsgml
+sudo port install libsamplerate
+sudo port install libevent
+sudo port install soundtouch
+sudo port install tokyocabinet
+sudo port install taglib
+sudo port install sqlite3
+sudo make linkInstall
+
+
+This would take a lot of time so be patient.. After the installation, run command io
+And Bingo! it should work.
