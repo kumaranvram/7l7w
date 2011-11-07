@@ -1,6 +1,6 @@
 ArrayCalc := Object clone
 
-List sum2 := method (array,
+List sum2l := method (array,
 	sum := 0
 	for(i, 0, array size-1, i
 			sum = sum + array at(i) sum
